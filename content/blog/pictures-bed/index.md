@@ -282,7 +282,7 @@ https://blog.cyfan.top/p/ce240368.html
 
 参考 [Spencer Woo](https://ovi.swo.moe/zh/docs/getting-started) 去搭建一个 onedrive-vercel-index 就行
 
-## xxxxxxxxxx2 1- <script async data-pjax src="https://cdn.jsdelivr.net/gh/slblog-github/Static@main/script/pace-main.min.js"></script>2- <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/slblog-github/Static@main/styles/pace-theme-flash.min.css">yaml
+## Google Drive
 
 参考 [ChenYFan](https://blog.cyfan.top/p/74e90c90.html) 搭建一个 GDIndex 即可
 

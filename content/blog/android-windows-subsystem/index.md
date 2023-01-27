@@ -135,7 +135,7 @@ adb connect 127.0.0.1:58526
 然后上传文件
 
 ```shell
-adb push <文件位置> /sdcard/
+adb push 文件位置 /sdcard/
 ```
 
 <文件位置> 记得替换成你自己的

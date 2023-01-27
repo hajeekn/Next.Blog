@@ -26,8 +26,6 @@ id: 32
 
 - 一个语雀账号
 
-{% btn 'https://www.yuque.com/login?platform=wechat&inviteToken=f6e959505e77f114312173f53ec62f7b2c4ff248e08ed045603ad16d2ecf62ec',Click Me,far fa-hand-point-right,outline green larger %}
-
 - Vercel 账号
 - GitHub 私钥
 
