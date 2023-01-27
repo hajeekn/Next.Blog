@@ -31,7 +31,7 @@ id: 32
 
 ## GitHub 私钥的获得
 
-{% btn 'https://github.com/settings/tokens',Click Me,far fa-hand-point-right,outline orange larger %}
+https://github.com/settings/tokens
 进入以上地址
 ![image.png](https://cdn.nlark.com/yuque/0/2021/png/12488964/1613794133135-53076e7e-49e3-4d92-9453-c8df7c660726.png#align=left&display=inline&height=428&margin=%5Bobject%20Object%5D&name=image.png&originHeight=856&originWidth=1895&size=180244&status=done&style=none&width=947.5)
 
@@ -47,7 +47,6 @@ Select scopes 选择 repo / 或者宁可以全选,但是泄露了你就完蛋了
 ## 仓库新建
 
 进入 GitHub 新建仓库
-{% btn 'https://github.com/new',点我传送,far fa-hand-point-right,outline orange larger %}
 ![image.png](https://cdn.nlark.com/yuque/0/2021/png/12488964/1613794501142-563d3399-8640-4fae-bd35-c5b155fcea5f.png#align=left&display=inline&height=338&margin=%5Bobject%20Object%5D&name=image.png&originHeight=676&originWidth=1163&size=74636&status=done&style=none&width=581.5)
 创建仓库时,权限请选择 Private(否则后续会很麻烦的)
 
