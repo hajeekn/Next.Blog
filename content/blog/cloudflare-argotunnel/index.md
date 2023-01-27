@@ -50,7 +50,7 @@ amd64 也就是 64 位的 Windows 系统
 打开终端,输入以下指令
 
 ```
-./cloudflared.exe tunnel create <你想要的隧道名称>
+./cloudflared.exe tunnel create 你想要的隧道名称
 ```
 
 创建一个隧道
@@ -63,7 +63,7 @@ amd64 也就是 64 位的 Windows 系统
 ID 怎么获取呢?
 你创建隧道时的 xxxxx.json 去掉.json 就是你的隧道 ID
 然后保存
-如果你是第三方托管,你还要去你的域名管理商新建一样的记录,但是 CNAME 值写<记录名.域名.cdn.cloudflare.net>
+如果你是第三方托管,你还要去你的域名管理商新建一样的记录,但是 CNAME 值写 记录名.域名.cdn.cloudflare.net
 之后你就可以连接 Argo 隧道了
 
 # 连接 Argo 隧道
@@ -71,7 +71,7 @@ ID 怎么获取呢?
 在终端里面输入以下指令
 
 ```bash
-./cloudflared tunnel --config path/config.yaml run <刚刚的隧道名> --url <本地URL(可以带端口)>
+./cloudflared tunnel --config path/config.yaml run 刚刚的隧道名 --url 本地URL(可以带端口)
 ```
 
 其中你要填写隧道名和本地 URL
