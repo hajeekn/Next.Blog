@@ -1,0 +1,62 @@
+---
+title: GitHub 的多种访问方式
+sticky: 1
+tags: [github, gfw]
+description: GitHub 的多种开(访)车(问)方式
+categories: [github]
+cover: https://rmt.ladydaily.com/fetch/hajeekn/storage/幻灯片1.PNG
+abbrlink: gd503y
+date: 2022-05-14 7:53:12
+copyright_author_href: https://blog.slqwq.cn
+author: Hajeekn
+---
+
+# Dev-Sidecar
+
+> 请注意,由于开发者边车的 Gitee 仓库被封锁,所以这个项目不再更新了
+
+**在使用之前,请观看知乎的一个讨论**
+[如何评价《网络数据安全管理条例（征求意见稿）》第四十一条和第六十六条：建立数据跨境安全网关？](https://www.zhihu.com/question/498939985)
+
+---
+
+进入开发者边车的 [Release](https://github.com/docmirror/dev-sidecar/releases/latest)
+找到符合自己系统的版本,点击下载
+下载完成后安装,打开
+![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205140803394.png#crop=0&crop=0&crop=1&crop=1&id=GAQgy&originHeight=923&originWidth=1107&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+系统代理建议不要开启
+加速服务可以设置端口
+![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205140804781.png#crop=0&crop=0&crop=1&crop=1&id=dgAHc&originHeight=838&originWidth=856&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+其他的就没什么好设置的了,只需要把 NPM 加速和 Git 加速打开即可
+But 因为这个软件已经停更了,所以我非常不建议各位用
+
+# SwitchHosts + GitHub520
+
+这个项目是以 Hosts 来加速的
+首先去 SwitchHosts 的 [Release](https://github.com/oldj/SwitchHosts/releases/latest)
+接着下载安装
+SwitchHosts 这样配置即可
+![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205140823.png?w=1280#crop=0&crop=0&crop=1&crop=1&id=QxTW3&originHeight=600&originWidth=1000&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)如果遇到没有写入权限,就进入 Hosts 文件的属性,配置一下权限和去掉只读,玩 Windows 的应该都知道提权这东西吧
+
+# Watt Toolkit
+
+> ⚠ 更新: 2022/12/28 19:53 新版的 Watt Toolkit 已经去掉了 Socks 设置
+
+[Watt Toolkit](https://steampp.net/)
+
+下载安装没什么好说的
+
+进入软件勾选上所有的加速选项,然后选择 `Hosts 加速模式` 即可
+如果怕加速不了的话就勾上加速选项里的 `Socks5` 代理
+然后配置一下
+
+```bash
+sudo git config --global http.proxy 'socks5://127.0.0.1:8868'
+sudo git config --global https.proxy 'socks5://127.0.0.1:8868'
+```
+
+8868 记得替换成你自己的端口
+
+# 题外话
+
+加速 npm 还是 Dev-Sidecar 和 local-npm 好用一点
