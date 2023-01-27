@@ -1,3 +1,2 @@
-# [pengtikui.cn](https://pengtikui.cn)
-
-个人站点
+# Next-blog
+基于 Next.js 搭建的博客
