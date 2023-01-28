@@ -3,8 +3,5 @@ export default function TypeBadge({ type }) {
   if (type === 'blog') {
     return <span className={`${classes} bg-green-100`}>博客</span>;
   }
-  if (type === 'weekly') {
-    return <span className={`${classes} bg-blue-100`}>周刊</span>;
-  }
   return null;
 }

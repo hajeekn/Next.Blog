@@ -22,8 +22,8 @@ export default function BlogItem({ blog }) {
       <article className="px-4 py-8 prose max-w-none">
         <MDXRemote {...blog.content} components={{ img: (props) => <Image {...props} width="1920" height="1080" 
         style={{
-            width: "100%",
-            height: `100%`,
+            width: "auto",
+            height: "auto",
             display:"flex",
             justifyContent:"center",
             alignItems:"center"
