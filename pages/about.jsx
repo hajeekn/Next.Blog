@@ -28,7 +28,9 @@ export default function About() {
             <GitHub size="100%" />
           </a>
         </div>
+
       </div>
+      <center><p>友链摆烂了,完全依托答辩</p></center>
     </>
   );
 }

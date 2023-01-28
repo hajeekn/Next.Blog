@@ -8,6 +8,7 @@ const menu = [
   { title: '首页', href: '/', delay: 'delay-[100ms]' },
   { title: '博客', href: '/blog', delay: 'delay-[150ms]' },
   { title: '关于', href: '/about', delay: 'delay-[250ms]' },
+  { title: '朋友', href: 'https://gcores.blog.slqwq.cn/link', delay: 'delay-[400ms]' },
 ];
 
 const ToggleIcon = ({ icon: Icon, hidden }) => {
