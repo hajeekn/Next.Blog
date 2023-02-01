@@ -1,6 +1,4 @@
 import Head from 'next/head';
-import Script from 'next/Script';
-/* import dynamic from 'next/dynamic'; */
 import Image from 'next/image';
 import { MDXRemote } from 'next-mdx-remote';
 import Banner from '../../shared/Banner';
