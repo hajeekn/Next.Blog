@@ -1,19 +1,19 @@
 import Head from 'next/head';
 import Script from 'next/Script'
-import dynamic from 'next/dynamic';
+/* import dynamic from 'next/dynamic'; */
 import Image from 'next/image';
 import { MDXRemote } from 'next-mdx-remote';
 import Banner from '../../shared/Banner';
 import { getBlogBySlug, getBlogSlugList } from '../../lib/api';
 
 import 'prism-themes/themes/prism-duotone-sea.css';
-
+/*
 const Waline = dynamic(() => import('../../shared/Comment'), {
     loading: () => 'Loading...',
     ssr: false,
   }
 )
-
+*/
 /* 
 const WCommentInit = () => {
     return {
@@ -50,9 +50,6 @@ export default function BlogItem({ blog }) {
             alignItems:"center"
         }} /> }} />
       </article>
-      <div id="Comments"></div>
-      <Script src="/static/client/waline.cjs" />
-      <Waline />
     </div>
   );
 }
