@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Script from 'next/Script'
+import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import { MDXRemote } from 'next-mdx-remote';
 import Banner from '../../shared/Banner';
@@ -6,6 +8,25 @@ import { getBlogBySlug, getBlogSlugList } from '../../lib/api';
 
 import 'prism-themes/themes/prism-duotone-sea.css';
 
+const Waline = dynamic(() => import('../../shared/Comment'), {
+    loading: () => 'Loading...',
+    ssr: false,
+  }
+)
+
+/* 
+const WCommentInit = () => {
+    return {
+        __html: `
+        import { init } from /static/client/waline.mjs
+        init({
+            el: '#Comments',
+            serverURL: 'https://logwaline.vercel.app'
+        })
+        `,
+    }
+}
+*/
 export default function BlogItem({ blog }) {
   return (
     <div className="mt-6 max-w-2xl mx-auto">
@@ -20,7 +41,7 @@ export default function BlogItem({ blog }) {
         <span className="mt-2 text-sm text-gray-400">{blog.date}</span>
       </Banner>
       <article className="px-4 py-8 prose max-w-none">
-        <MDXRemote {...blog.content} components={{ img: (props) => <Image {...props} width="1920" height="1080" 
+        <MDXRemote {...blog.content} components={{ img: (props) => <Image {...props} alt="Lock" width="1920" height="1080" 
         style={{
             width: "auto",
             height: "auto",
@@ -29,6 +50,9 @@ export default function BlogItem({ blog }) {
             alignItems:"center"
         }} /> }} />
       </article>
+      <div id="Comments"></div>
+      <Script src="/static/client/waline.cjs" />
+      <Waline />
     </div>
   );
 }
