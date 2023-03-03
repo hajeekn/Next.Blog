@@ -24,13 +24,12 @@ export default function About() {
           <a className="w-5 h-5" title="Email" href="mailto:thajeekn@duck.com">
             <AtSign size="100%" />
           </a>
-          <a className="w-5 h-5" title="GitHub" href="https://github.com/ladjeek-actions">
+          <a className="w-5 h-5" title="GitHub" href="https://github.com/hajeekn">
             <GitHub size="100%" />
           </a>
         </div>
 
       </div>
-      <center><p>友链摆烂了,完全依托答辩</p></center>
     </>
   );
 }
