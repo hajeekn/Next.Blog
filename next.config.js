@@ -32,6 +32,6 @@ module.exports = {
   },
   images: {
     formats: ['image/avif', 'image/webp'],
-    domains: ['i0.hdslb.com', 'rmt.ladydaily.com'],
+    domains: ['i0.hdslb.com', 'rmt.ladydaily.com', 'dogefs.s3.ladydaily.com'],
   },
 };
