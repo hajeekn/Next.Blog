@@ -1,7 +1,80 @@
-name:
-  - "Hajeekn"
-  - "MBRJun"
-  - "BUG"
-url:
-  - "#"
-  - "https://github.com/"
+    - name: bmyjacks
+      url: https://bmyjacks.cn/
+      avatar: /friends-avatar/bmyjacks.png
+      descr: 分享一些学习经历以及一些比较有意思的东西
+    - name: MBRJun
+      url: https://mbrjun.cn/
+      avatar: /friends-avatar/mbrjun.jpg
+      descr: Touching Fish
+    - name: 璃心
+      url: https://luoyou.art/
+      avatar: /friends-avatar/luoyou.jpg
+      descr: 人工智能-深度学习，计算机视觉，算法，数学
+    - name: impdx-忧郁的派大星
+      url: https://www.impdx.vip/
+      avatar: /friends-avatar/pdx.png
+      descr: 越学习，越发现自己的无知——笛卡尔
+    - name: 保温杯的小栈
+      url: https://1357.ga/
+      avatar: /friends-avatar/1357.jpg
+      descr: 就是俺啦！
+    - name: FadeAway
+      url: https://fadeawayol.github.io/
+      avatar: /friends-avatar/fadeaway.jpg
+      descr: 相遇总有原因，不是恩赐就是教训
+    - name: Shine
+      url: https://shineyull.github.io/
+      avatar: /friends-avatar/Shine.png
+      descr: "Let's go! Target: The Vast Stars!"
+    - name: 小康博客
+      url: https://www.antmoe.com/
+      avatar: /friends-avatar/antmoe.jpg
+      descr: 一个收藏回忆与分享技术的地方！
+    - name: Uncle_drew
+      url: https://cndrew.cn/
+      avatar: /friends-avatar/dreww.webp
+      descr: Hand down,man down
+    - name: PluShine
+      url: https://plushine.cn
+      avatar: /friends-avatar/touxiang.jpg
+      descr: 💕菜徐坤💕
+    - name: 云淡风轻
+      url: https://ioliu.cn/
+      avatar: /friends-avatar/ioliu.jpg
+      descr: 一个安静的角落
+    - name: CC的部落格
+      url: https://blog.ccknbc.cc
+      avatar: /friends-avatar/ccknbc.png
+      descr: CC康纳百川
+    - name: Heo
+      url: https://blog.zhheo.com/
+      avatar: /friends-avatar/zhheo.png
+      descr: 爱折腾的设计师
+    - name: Ln's Blog
+      url: https://weilining.cf
+      avatar: /friends-avatar/20201120235415.png
+      descr: 时不我待
+    - name: 学习与生活
+      url: https://ql-isaac.cn/
+      avatar: /friends-avatar/ql-isaac.jpg
+      descr: It’s a beautiful day!
+    - name: Wlog
+      url: https://blog.wmza.cn
+      avatar: /friends-avatar/wmza.svg
+      descr: 一个普通人
+    - name: 贰猹的小窝
+      url: https://noionion.top/
+      avatar: /friends-avatar/noionion.jpg
+      descr: 用这生命中的每一秒钟,给自己一个不后悔的未来
+    - name: Leonus
+      url: https://blog.leonus.cn/
+      avatar: /friends-avatar/leonus.jpg
+      descr: 进一寸有进一寸的欢喜。
+    - name: Acozycotage
+      url: https://www.acozycotage.net/
+      avatar: /friends-avatar/acozycotage.jpg
+      descr: 寄言燕雀莫相唣，自有云霄万里高，给时光以生命，给岁月以文明 
+    - name: 安小歪的博客
+      url: https://blog.shangskr.top/
+      avatar: /friends-avatars/shangskr.png
+      descr: 一个分享网络技术和经历的博客
