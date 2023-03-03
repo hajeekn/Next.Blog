@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { MDXRemote } from 'next-mdx-remote';
 import Banner from '../../shared/Banner';
 import { getBlogBySlug, getBlogSlugList } from '../../lib/api';
+import Waline from '@montagejs/react-waline-client'
 
 import 'prism-themes/themes/prism-duotone-sea.css';
 /*
@@ -48,6 +49,8 @@ export default function BlogItem({ blog }) {
             alignItems:"center"
         }} /> }} />
       </article>
+      <div id="Comments"></div>
+      <Waline serverURL="https://comments.hajeekn.eu.org" el="#Comments" />
     </div>
   );
 }
