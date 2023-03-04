@@ -1,9 +1,11 @@
+import React, { useRef, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import { MDXRemote } from 'next-mdx-remote';
 import Banner from '../../shared/Banner';
 import { getBlogBySlug, getBlogSlugList } from '../../lib/api';
-import Waline from '@montagejs/react-waline-client'
+import { init } from '@waline/client';
+/* import Waline from '@montagejs/react-waline-client' */
 
 import 'prism-themes/themes/prism-duotone-sea.css';
 /*
@@ -26,7 +28,23 @@ const WCommentInit = () => {
     }
 }
 */
+/*       <Waline serverURL="https://next.api.hajeekn.eu.org" recaptchaV3Key="6LcNtNAkAAAAAA6hV4hTdsKH4bEi07egSJmdIApQ" /> */
 export default function BlogItem({ blog }) {
+    const walineRef = useRef(null);
+
+    useEffect(() => {
+      walineRef.current = init({
+        el: '#waline-comment',
+        path: blog.slug,
+        serverURL: 'https://next.api.hajeekn.eu.org',
+        lang: 'zh-CN',
+        recaptchaV3Key: '6LcNtNAkAAAAAA6hV4hTdsKH4bEi07egSJmdIApQ'
+      });
+  
+      return () => {
+        walineRef.current.destroy();
+      };
+    }, []);
   return (
     <div className="mt-6 max-w-2xl mx-auto">
       <Head>
@@ -49,8 +67,7 @@ export default function BlogItem({ blog }) {
             alignItems:"center"
         }} /> }} />
       </article>
-      <div id="Comments"></div>
-      <Waline serverURL="https://comments.hajeekn.eu.org" el="#Comments" />
+      <div id="waline-comment" />
     </div>
   );
 }

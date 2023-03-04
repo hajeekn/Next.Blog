@@ -23,10 +23,10 @@ author: Hajeekn
 进入开发者边车的 [Release](https://github.com/docmirror/dev-sidecar/releases/latest)
 找到符合自己系统的版本,点击下载
 下载完成后安装,打开
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205140803394.png#crop=0&crop=0&crop=1&crop=1&id=GAQgy&originHeight=923&originWidth=1107&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/5b9789a12b00527da35e3d1a2491d6a44eb6cb54.png)
 系统代理建议不要开启
 加速服务可以设置端口
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205140804781.png#crop=0&crop=0&crop=1&crop=1&id=dgAHc&originHeight=838&originWidth=856&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/8c0a8bd3a4040cfd77a6b6caafceecaa422edd4c.png)
 其他的就没什么好设置的了,只需要把 NPM 加速和 Git 加速打开即可
 But 因为这个软件已经停更了,所以我非常不建议各位用
 
@@ -36,7 +36,7 @@ But 因为这个软件已经停更了,所以我非常不建议各位用
 首先去 SwitchHosts 的 [Release](https://github.com/oldj/SwitchHosts/releases/latest)
 接着下载安装
 SwitchHosts 这样配置即可
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205140823.png?w=1280#crop=0&crop=0&crop=1&crop=1&id=QxTW3&originHeight=600&originWidth=1000&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)如果遇到没有写入权限,就进入 Hosts 文件的属性,配置一下权限和去掉只读,玩 Windows 的应该都知道提权这东西吧
+![](https://article.biliimg.com/bfs/article/cac75497adfd2db6ca1cfe74d6caa1076852f9e9.jpg)如果遇到没有写入权限,就进入 Hosts 文件的属性,配置一下权限和去掉只读,玩 Windows 的应该都知道提权这东西吧
 
 # Watt Toolkit
 

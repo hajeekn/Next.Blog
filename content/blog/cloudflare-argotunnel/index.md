@@ -37,7 +37,7 @@ amd64 也就是 64 位的 Windows 系统
 如果跳出版本号就成功了
 接着你需要打开[Cloudflare Argo Tunnel 的授权页面](https://dash.cloudflare.com/argotunnel)
 在里面点击你要授权 Argo Tunnel 的域名
-接着会弹出来一个弹窗![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202204171116532.png#crop=0&crop=0&crop=1&crop=1&id=y8s2F&originHeight=219&originWidth=1050&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+接着会弹出来一个弹窗![](https://article.biliimg.com/bfs/article/f7263832904bb2c8465ec879810f5178fd3b0ee9.png)
 提示你点击授权,照着文字点就行
 然后你的浏览器会自动下载一个叫 cert.pem 的文件
 复制它
@@ -80,4 +80,4 @@ Hexo 一般是 localhost:4000
 其他项目就填进去就好了,记住不带 http 和 https 的协议头,也不带后缀 /
 填写完成后回车,等它连接好
 然后你打开你刚才创建的子域名,就会出现页面了
-~~今天又水了一篇文章~~![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202204171116141.png#crop=0&crop=0&crop=1&crop=1&id=OXws5&originHeight=43&originWidth=42&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+~~今天又水了一篇文章~~![](https://article.biliimg.com/bfs/article/f0b35cdb857b0c4824aa815f2433d3feff7fa77c.png)
