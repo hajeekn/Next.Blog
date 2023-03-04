@@ -28,7 +28,7 @@ Fork 仓库
 以 CloudFlare 为例子
 进入 [CloudFlare Dashbord](https://service-dali9563-1259647411.sh.apigw.tencentcs.com/?link=a0la4la4la8la7l55l38l38la4l96l37la7l97la9la3la9l37l92l95l38l94la8l89l38l49&hex=11&xor=6)
 选择 `Pages`
-选择![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202204171138892.png#crop=0&crop=0&crop=1&crop=1&id=cERjd&originHeight=58&originWidth=124&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+选择![](https://article.biliimg.com/bfs/article/fb462c8b8fc001da4e210743d454ebc2a195b6b4.png)
 存储库选择 Fork 的仓库
 然后一直下一步,等到部署完成就可以访问了
 
@@ -37,7 +37,7 @@ Fork 仓库
 如果你不想要 'pages.dev' 长地址,可以自定义域名
 进入刚才部署好的项目的管理页面
 选择自定义域
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202204171138465.png#crop=0&crop=0&crop=1&crop=1&id=oWzXr&originHeight=434&originWidth=937&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/f4a64bef460f985d6aab4566bd5b0c210c9ff824.png)
 添加你的域名
 接着做好 CNAME 解析即可
 
@@ -46,7 +46,7 @@ Fork 仓库
 新建一个 GitHub 仓库
 存放你的 issues 数据
 创建好后进入 issues 选项
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202204171138152.png#crop=0&crop=0&crop=1&crop=1&id=Axdg3&originHeight=433&originWidth=937&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/c883b4dc4d5c1dbd1b9c96eaf3b7ceb2908550e5.png)
 选择 New issue
 标题就写想要定向的网站
 内容可以记录下 ID
@@ -60,7 +60,7 @@ Fork 仓库
 
 进入 Fork 的仓库
 编辑 404.html
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202204171139703.png#crop=0&crop=0&crop=1&crop=1&id=PAJmp&originHeight=98&originWidth=619&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/051672945bd293e26a7fef7ba76627562e07a918.png)
 在此处把/repos/**\***/issues/的\*\*\*\*改为你的用户名/仓库
 然后提交
 等待 CloudFlare 部署完成即可
@@ -69,4 +69,4 @@ Fork 仓库
 
 这部分不能说明(
 
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202204171139358.gif#crop=0&crop=0&crop=1&crop=1&id=a2bhR&originHeight=108&originWidth=148&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/a869ad198ffaf98f5213ae7c8cca5039292552be.gif)

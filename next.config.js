@@ -1,3 +1,5 @@
+const { resolve } = require('path');
+
 const needRedirectPostList = [
   'react-code-style-guide',
   'css-in-react',
@@ -32,6 +34,6 @@ module.exports = {
   },
   images: {
     formats: ['image/avif', 'image/webp'],
-    domains: ['i0.hdslb.com', 'rmt.ladydaily.com', 'dogefs.s3.ladydaily.com'],
+    domains: ['i0.hdslb.com', 'rmt.ladydaily.com', 'dogefs.s3.ladydaily.com', 'article.biliimg.com', 'cdn.jsdelivr.net', 'npm.elemecdn.com', 'cdn.nlark.com'],
   },
 };

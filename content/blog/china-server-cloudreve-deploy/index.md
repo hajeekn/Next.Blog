@@ -22,7 +22,7 @@ author: Hajeekn
 # 云服务器配置
 
 在创建云服务器时这样配置
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205021034784.png#crop=0&crop=0&crop=1&crop=1&id=jeN9j&originHeight=554&originWidth=1171&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/30d1f177250a3f8c98a8c4f1bb8d81df2c5d4d7e.png)
 实例选 n4.small
 地域上海 A 区
 带宽根据自己的需要调
@@ -62,17 +62,17 @@ $ if [ -f /usr/bin/curl ];then curl -sSO https://download.bt.cn/install/install_
 # 安装 Cloudreve
 
 去 Cloudreve 的 GitHub 中找安装包
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205021043200.png#crop=0&crop=0&crop=1&crop=1&id=l4mdr&originHeight=253&originWidth=1141&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/638e543f133c0144fac9ab882ea2fadeed7386db.png)
 登录宝塔
 创建一个文件夹
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205021051338.png#crop=0&crop=0&crop=1&crop=1&id=zlJwp&originHeight=324&originWidth=618&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/03e302d7da73f943e88c80466d8a6314ff501c2f.png)
 创建完后选择远程下载
 把地址粘贴进去,等待下载完成
 然后点击 tar.gz 后面的解压
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205021052056.png#crop=0&crop=0&crop=1&crop=1&id=AmzKD&originHeight=66&originWidth=1593&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/cb02fd969b04964efbea53a3e322756c8e546664.png)
 之后给解压出来的文件给 777 权限
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205021052481.png#crop=0&crop=0&crop=1&crop=1&id=JsL3b&originHeight=53&originWidth=1581&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205021052768.png#crop=0&crop=0&crop=1&crop=1&id=zZdj0&originHeight=310&originWidth=501&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/22f5700de07dc4eba675de42ef6c3006a796ffb7.png)
+![](https://article.biliimg.com/bfs/article/26f5ff92f2f3aec0f492821d33c71dbdad6abe48.png)
 然后进入终端
 安装 Screen
 
@@ -98,17 +98,17 @@ $ ./cloudreve
 # 配置反向代理 & SSL
 
 启动完后回到宝塔,添加站点
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205021052856.png#crop=0&crop=0&crop=1&crop=1&id=ewZuC&originHeight=602&originWidth=801&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/446c5af1111bb0627a248c895ed4d4906454184b.png)
 创建完后进入反向代理
 新建反向代理
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205021052690.png#crop=0&crop=0&crop=1&crop=1&id=pL5we&originHeight=535&originWidth=813&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/37dc0f6a98a12a1f8f55093ea6c3053caf74c420.png)
 目标 URL 写 cloudreve 启动的地址
 配置完后提交
 转到 SSL
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205021052166.png#crop=0&crop=0&crop=1&crop=1&id=VtifT&originHeight=262&originWidth=567&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/f90d8d71ee919ef6e355b2e77caa8392b3c2eca8.png)
 选择 Let's Encrypt
 选择 DNS 验证(因为我们开了反向代理,不能用文件验证)
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202205021053253.png#crop=0&crop=0&crop=1&crop=1&id=ue0Qs&originHeight=314&originWidth=570&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/e6b87b97aa375e5f0f8caaf21f7e468fffaa030a.png)
 DNS 接口根据自己选择并配置
 如果没有你的 DNS 提供商,就手动解析
 配置完后勾选要申请 SSL 的域名

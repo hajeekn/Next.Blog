@@ -75,11 +75,11 @@ id: 33
 [ ](https://vercel.com/import/project?template=https://github.com/lizheming/waline/tree/master/example)![](https://cdn.nlark.com/yuque/0/2021/svg/12488964/1613908946082-2b97a876-6dcf-437c-8b06-d1be78602a82.svg#crop=0&crop=0&crop=1&crop=1&height=32&id=SkrZu&originHeight=32&originWidth=92&originalType=binary&ratio=1&rotation=0&showTitle=false&size=0&status=done&style=none&title=&width=92)
 点击上面的 Deploy 按钮就可以快速跳转到 Vercel 部署辣
 如果你没有 Vercel 账号,可能提示你需要注册一个,这里不要用 QQ 邮箱因为他们会认为 QQ 邮箱是一个垃圾邮箱
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202204171106702.png#crop=0&crop=0&crop=1&crop=1&id=nd4Cj&originHeight=875&originWidth=1896&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/86064013863e39b083093dc6aefafaa00f9ee798.png)
 PROJECT NAME 可以随便填写一个
 这就是项目名称,不过为了之后好辩别,还是写一个方便记住的吧
 输入了你的项目名称后点击 Continue 进入下一步
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202204171107459.png#crop=0&crop=0&crop=1&crop=1&id=GLi6Z&originHeight=874&originWidth=1898&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/963a0d900b8357b760e718d548d4f57fffe10c72.png)
 不过可能会提示你要选择一个
 随便来一个就是(前提是你有对应的账号,否则老老实实选择 GitHub
 ![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202204171107509.png#crop=0&crop=0&crop=1&crop=1&id=uKJnF&originHeight=429&originWidth=937&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
@@ -90,7 +90,7 @@ PROJECT NAME 可以随便填写一个
 下方 👇 的 Create private Git Repository 如果勾选上创建的时候就会创建一个私有仓库
 然后再次点击 Continue 进行下一步
 然后就会出现这个页面
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202204171107245.png#crop=0&crop=0&crop=1&crop=1&id=ARA2n&originHeight=863&originWidth=1895&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/c54c0136173a903bb034631e2c71c0e497e97dfb.png)
 不管他,下滑
 找到 `Environment Variables` 配置环境变量
 默认需要的环境变量如下:
@@ -107,10 +107,10 @@ PROJECT NAME 可以随便填写一个
 如果没有创建一个应用
 **注意 ⚠: 如果您之前用了 Valine 评论系统 就不用创建了,因为 Waline 评论数据与 Valine 评论数据可以共用**
 进入应用设置后选择 设置 -> 应用 Keys
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202204171107450.png#crop=0&crop=0&crop=1&crop=1&id=N57mx&originHeight=512&originWidth=915&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/00784507efced200c8fc4b8b107fd29871b377ca.png)
 复制并保存 Credentials 的所有配置
 然后把获取到的变量依次填入环境变量中
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202204171108331.png#crop=0&crop=0&crop=1&crop=1&id=JpTSM&originHeight=376&originWidth=948&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/4326a9c03af31a4fcd48209498f62e77ac069c66.png)
 设置都完成后就可以点击 `Deploy` 了
 在这里稍等一会儿就可以部署完成
 部署完成后在接下来的页面点击 Visit
