@@ -30,7 +30,7 @@ Floccus 是一个在 GitHub 上的开源项目，该项目的官方简介如下
 如果你有账号点击登录
 如果你没有账号点击注册
 我有账号就直接登录了
-![](https://rmt.ladydaily.com/fetch/hajeekn/storage/202204171111947.png#crop=0&crop=0&crop=1&crop=1&id=KZgFg&originHeight=867&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://article.biliimg.com/bfs/article/1235eb8a4412dcdbd45c29c9ee1d0c4bc01e0087.png)
 进入后可以看见这些东西
 sync 刚开始是没有的
 接下来我们可以创建一个文件夹用于存放书签文件
