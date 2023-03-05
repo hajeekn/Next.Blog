@@ -1,5 +1,21 @@
-# Next-blog
-基于 Next.js 搭建的博客
+<h1 align="center">HajeeknのBlog</h1>
+<div align="center">
+
+🎇 是 Next.js ！
+
+[![Author](https://flat.badgen.net/badge/author/Hajeekn/)](https://github.com/hajeekn)
+[![Blog](https://flat.badgen.net/badge/blog/HajeeknのBlog/orange/)](https://hajeekn.eu.org)
+[![Made with Next.js](https://flat.badgen.net/badge/made%20with/▲/ff69b4)](https://nextjs.org/)
+
+</div>
+
+<p align="center">
+  <a href="https://github.com/hajeekn">
+    <img src="https://ghchart.rshah.org/Hajeekn" alt="Hajeekn's Github chart" />
+  </a>
+</p>
+
+
 # 友链提交指南
 首先 Fork 此仓库,在你 Fork 的仓库中修改 `data/friends.yaml`
 
