@@ -5,30 +5,9 @@ import { MDXRemote } from 'next-mdx-remote';
 import Banner from '../../shared/Banner';
 import { getBlogBySlug, getBlogSlugList } from '../../lib/api';
 import { init } from '@waline/client';
-/* import Waline from '@montagejs/react-waline-client' */
 
 import 'prism-themes/themes/prism-duotone-sea.css';
-/*
-const Waline = dynamic(() => import('../../shared/Comment'), {
-    loading: () => 'Loading...',
-    ssr: false,
-  }
-)
-*/
-/* 
-const WCommentInit = () => {
-    return {
-        __html: `
-        import { init } from /static/client/waline.mjs
-        init({
-            el: '#Comments',
-            serverURL: 'https://logwaline.vercel.app'
-        })
-        `,
-    }
-}
-*/
-/*       <Waline serverURL="https://next.api.hajeekn.eu.org" recaptchaV3Key="6LcNtNAkAAAAAA6hV4hTdsKH4bEi07egSJmdIApQ" /> */
+
 export default function BlogItem({ blog }) {
     const walineRef = useRef(null);
 
@@ -36,7 +15,7 @@ export default function BlogItem({ blog }) {
       walineRef.current = init({
         el: '#waline-comment',
         path: blog.slug,
-        serverURL: 'https://next.api.hajeekn.eu.org',
+        serverURL: 'https://waline-1-n8622878.deta.app',
         lang: 'zh-CN',
         recaptchaV3Key: '6LcNtNAkAAAAAA6hV4hTdsKH4bEi07egSJmdIApQ'
       });
