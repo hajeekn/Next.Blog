@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -8,7 +9,7 @@ export default function Footer() {
         <span className="mx-2 font-bold hidden sm:block">·</span>
         <p>Powered by Next.js</p>
         <span className="mx-2 font-bold hidden sm:block">·</span>
-        <Image alt="" src="/upyun.png" width={60} height={40} />
+        <Link href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><Image alt="" src="/upyun.png" width={60} height={40} /></Link>
       </div>
     </footer>
   );
