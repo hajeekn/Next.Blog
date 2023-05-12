@@ -1,6 +1,20 @@
+import {
+  Button,
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Flex,
+  Avatar,
+  Box,
+  Heading,
+  Text,
+  Grid,
+  GridItem,
+} from '@chakra-ui/react';
+import { ExternalLinkIcon } from '@chakra-ui/icons';
 import PageHead from '../shared/PageHead';
 import Link from 'next/link';
-import Image from 'next/image';
 import yaml from 'yaml';
 import fs from 'fs';
 import path from 'path';
@@ -9,39 +23,66 @@ export default function Home({ data }) {
   return (
     <div>
       <PageHead title="朋友们 - Hajeekn" />
-      <section class="max-w-2xl mx-auto px-4" fr-fix-stroke="true">
+      <section className="max-w-2xl mx-auto px-4" fr-fix-stroke="true">
         <div
-          class="flex flex-col items-center justify-center pt-6 pb-12 border-b border-gray-100"
+          className="flex flex-col items-center justify-center pt-6 pb-12 border-b border-gray-100"
           fr-fix-stroke="true"
         >
-          <h1 class="text-2xl font-medium">朋友们</h1>
+          <h1 className="text-2xl font-medium">朋友们</h1>
         </div>
       </section>
-      <div class="flex flex-wrap items-center p-4 justify-center space-x-4">
-        {data.map((item, index) => (
-          <div key={index}>
-            <div class="flex flex-1 m-2 rounded-lg items-center p-4">
-              <Image
-                src={item.avatar}
-                width="100"
-                height="100"
-                alt=""
-                class="w-10 flex-none rounded-full"
-              />
-              <div class="ml-4 flex-auto">
-                <div class="font-medium">{item.name}</div>
-                <div class="mt-1 text-slate-700">{item.descr}</div>
-              </div>
-              <Link target="_blank" href={item.url}>
-                <div class="pointer-events-auto ml-4 flex-none rounded-md py-[0.3125rem] px-2 font-medium text-slate-700 shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50">
-                  View
-                </div>
-              </Link>
-            </div>
+      <div className="p-4 justify-center space-x-4">
+      <Grid templateColumns="repeat(5, 1fr)" gap={6}>
+      {data.map((item, index) => (
+        <div key={index}>
+              <GridItem>
+                <Card maxW="auto">
+                  <CardHeader>
+                    <Flex>
+                      <Flex flex="4" gap="4" alignItems="center" flexWrap="nowrap">
+                        <Avatar name={item.name} src={item.avatar} />
+
+                        <Box w="auto" h="auto">
+                          <Heading size="sm">{item.name}</Heading>
+                        </Box>
+                      </Flex>
+                    </Flex>
+                  </CardHeader>
+                  <CardBody>
+                    <Text>{item.descr}</Text>
+                  </CardBody>
+
+                  <CardFooter
+                    justify="space-between"
+                    flexWrap="wrap"
+                    sx={{
+                      '& > button': {
+                        minW: '136px',
+                      },
+                    }}
+                  >
+                    <Link target="_blank" href={item.url}>
+                      <Button
+                        alignItems="center"
+                        flex="1"
+                        variant="ghost"
+                        leftIcon={<ExternalLinkIcon />}
+                      >
+                        Go
+                      </Button>
+                    </Link>
+                  </CardFooter>
+                </Card>
+              </GridItem>
           </div>
-        ))}
-      </div>
-      <center><p>提交友链请查看<a href="https://github.com/hajeekn/Next.Blog">仓库 README.md</a></p></center>
+      ))}
+          </Grid>
+        </div>
+      <center>
+        <p>
+          提交友链请查看<a href="https://github.com/hajeekn/Next.Blog">仓库 README.md</a>
+        </p>
+      </center>
     </div>
   );
 }

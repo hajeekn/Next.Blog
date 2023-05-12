@@ -1,4 +1,5 @@
 import 'tailwindcss/tailwind.css';
+import { ChakraProvider } from '@chakra-ui/react'
 import '../public/static/import.css';
 /* import 'hnb-cdn/index.min.css'; */
 import '../public/static/waline.css';
@@ -9,7 +10,9 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Header />
-      <Component {...pageProps} />
+      <ChakraProvider>
+        <Component {...pageProps} />
+      </ChakraProvider>
       <Footer />
     </>
   );
