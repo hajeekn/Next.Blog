@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import Head from 'next/head';
-import ImageRenderer from '../../shared/ImageRenderer';
+import ImageBadge from '../../shared/ImageBadge';
 import { MDXRemote } from 'next-mdx-remote';
 import Banner from '../../shared/Banner';
 import { getBlogBySlug, getBlogSlugList } from '../../lib/api';
@@ -68,7 +68,7 @@ export default function BlogItem({ blog }) {
             AlertDescription: AlertDescription,
             Tooltip: Tooltip,
             Button: Button,
-            img: ImageRenderer,
+            img: ImageBadge,
           }}
         />
       </article>

@@ -31,53 +31,52 @@ export default function Home({ data }) {
           <h1 className="text-2xl font-medium">朋友们</h1>
         </div>
       </section>
-      <div className="p-4 justify-center space-x-4">
-      <Grid templateColumns="repeat(5, 1fr)" gap={6}>
-      {data.map((item, index) => (
-        <div key={index}>
-              <GridItem>
-                <Card maxW="auto">
-                  <CardHeader>
-                    <Flex>
-                      <Flex flex="4" gap="4" alignItems="center" flexWrap="nowrap">
-                        <Avatar name={item.name} src={item.avatar} />
+      <div className="card-grid">
+        {data.map((item, index) => (
+          <div key={index}>
+            <Card maxW="fit-content">
+              <CardHeader>
+                <Flex>
+                  <Flex flex="4" gap="4" alignItems="center">
+                    <Avatar name={item.name} src={item.avatar} />
 
-                        <Box w="auto" h="auto">
-                          <Heading size="sm">{item.name}</Heading>
-                        </Box>
-                      </Flex>
-                    </Flex>
-                  </CardHeader>
-                  <CardBody>
-                    <Text>{item.descr}</Text>
-                  </CardBody>
+                    <Box w="auto" h="auto">
+                      <Heading size="sm">{item.name}</Heading>
+                    </Box>
+                  </Flex>
+                </Flex>
+              </CardHeader>
+              <CardBody>
+                <Text>{item.descr}</Text>
+              </CardBody>
 
-                  <CardFooter
-                    justify="space-between"
-                    flexWrap="wrap"
-                    sx={{
-                      '& > button': {
-                        minW: '136px',
-                      },
-                    }}
+              <CardFooter
+                justify="space-between"
+                flexWrap="wrap"
+                sx={{
+                  '& > button': {
+                    minW: '136px',
+                  },
+                }}
+              >
+                <Link target="_blank" href={item.url}>
+                  <Button
+                    alignItems="center"
+                    flex="1"
+                    variant="ghost"
+                    leftIcon={<ExternalLinkIcon />}
                   >
-                    <Link target="_blank" href={item.url}>
-                      <Button
-                        alignItems="center"
-                        flex="1"
-                        variant="ghost"
-                        leftIcon={<ExternalLinkIcon />}
-                      >
-                        Go
-                      </Button>
-                    </Link>
-                  </CardFooter>
-                </Card>
-              </GridItem>
+                    Go
+                  </Button>
+                </Link>
+              </CardFooter>
+            </Card>
           </div>
-      ))}
-          </Grid>
-        </div>
+        ))}
+      </div>
+      <center>
+        <p className="show-method">显示方式: </p>
+      </center>
       <center>
         <p>
           提交友链请查看<a href="https://github.com/hajeekn/Next.Blog">仓库 README.md</a>
@@ -88,12 +87,10 @@ export default function Home({ data }) {
 }
 
 export async function getStaticProps() {
-  // read and parse the YML file
   const filePath = path.join(process.cwd(), 'data', 'friends.yaml');
   const fileContent = fs.readFileSync(filePath, 'utf8');
   const data = yaml.parse(fileContent);
 
-  // return the data as props
   return {
     props: {
       data,
