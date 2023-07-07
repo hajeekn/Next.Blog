@@ -1,3 +1,4 @@
+> 博客已归档,新的博客(Project ID: Star)努力构建中
 <h1 align="center">HajeeknのBlog</h1>
 <div align="center">
 
